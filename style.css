@@ -109,3 +109,13 @@ input[type="radio"]:checked{
     height: 200px;
     width: 150px;
  }
+ img{
+    height: 100%;
+    width: 100%;
+ }
+ article{
+    padding: 20px;
+    border: 3px solid var(--bc);
+    display: flex;
+    flex-wrap: wrap;
+ }
