@@ -105,4 +105,7 @@ input[type="radio"]:checked{
     background-color: var(--rcolor);
  }
 
- 
+ .mov{
+    height: 200px;
+    width: 150px;
+ }
