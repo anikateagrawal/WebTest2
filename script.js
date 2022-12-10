@@ -29,6 +29,7 @@ function req(s){
     const xhr=new XMLHttpRequest;
     xhr.onload=function(){
         var c=document.getElementById('m');
+        c.innerHTML="";
         data=JSON.parse(this.response);
         data.forEach((d)=>{
             console.log(d.show.image.original);
